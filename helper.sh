@@ -22,3 +22,11 @@ mvn clean install
 
 # we can then check maven local repository by running:
 ls ~/.m2/repository/com/dataeng/example/1.2
+
+
+# 5. check the remote repository
+git remote -v
+
+# we can run
+git push origin master 
+ 
